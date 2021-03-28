@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+:root{
+	--theme-color:#21B573;
+	--btn-radius:30px;
+	--bg-color:#F0FFF0;
+	--color:#413960;
+	--font-size: 16px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: var(--color);
+}
+header{
+	background:var(--bg-color);
+}
+.navbar-brand img{
+	width:150px !important;
+}
+ .navbar-light .navbar-nav .nav-link {
+    color: #000 !important;
+padding: 12px 28px !important;
+border-radius:var(--btn-radius);
+font-size: 16px !important;
+}
+ .navbar-light .navbar-nav .nav-link:hover {
+    background: var(--theme-color);
+color: #fff !important;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #fff !important;
+    background: var(--theme-color);
+}
+header > .container{
+	padding: 100px 0;
+}
+.banner-content{}
+.banner-content p{
+	padding-right: 270px;
+	line-height: 1.7;
+	font-size: 16px;
+	font-weight: 600;
+}
+.banner-content h1{
+	font-weight: 800;
+	font-size: 48px !important;
+	max-width: 400px;
+	line-height: 70px;
+}
+
+.banner-content span{
+	color:#FD511A;
+}
+.banner-content strong{
+		font-weight: 800;
+	color: var(--theme-color);
+	font-weight: 800;
+}
+.banner-content a{
+	padding: 12px 36px;
+	color: #fff !important;
+	border-radius: var(--btn-radius);
+}
+.banner-img{}
+.banner-img img{}
+.btn-custom{
+border-radius:var(--btn-radius);
+background: var(--theme-color) !important;
+}
+.features{
+    text-align: center;
+    background-color: var(--bg-color);
+    padding: 30px 15px !important;
+    border-radius: 10px;
+    transition: 400ms all ease-in-out;
+}
+.features:hover{
+    box-shadow: 10px 10px 20px #1313131f;
+    background-color: #fff;
+
+}
+section{
+	padding: 40px 0;
+}
+.features p{
+    color: #585859;
+    font-size: 16px;
+}
+.features h2{
+    color:var(--color);
+    font-size: 24px;
+    margin: 12px 0;
+}
+.features img{
+    width: 66px;
+    height: 85px;
+}
+.heading{
+	text-align: center;
+}
+.heading h1{ 
+	color: var(--color);
+	font-size: 36px;
+	font-weight: 800;
+}
+.course{
+
+    box-shadow: 10px 10px 20px #1313131f;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 400ms all ease-in-out;
+}
+.course:hover{
+
+    box-shadow: 0px 0px 0px #1313131f;
+}
+.course h3{
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+
+}
+.course span{
+	font-size: var(--font-size);
+	margin:0 0 10px;
+
+}
+.course ul{}
+.course ul li{	
+	font-weight: 500;
+	font-size: 20px
+}
+.course p{
+	font-size: var(--font-size);
+	margin: 10px 0;
+
+}
+.course button{
+	margin-bottom: 30px;
+	padding: 5px 36px;
+	color: #fff;
+	border-radius: var(--btn-radius);
+}
+footer{
+	padding:40px 0;
+	background-color: var(--color);
+}
+footer p{
+	color: #fff;
+}
+footer ul{}
+footer ul li{}
+footer ul li a{
+	color: #fff;
+text-decoration: none;
+}
+footer ul li a:hover{
+text-decoration: none;
+color: #fff;
+opacity: 0.7
+}
+footer ul li strong{
+	color: #fff;
+}
+.Copyright{
+	color:#fff;
+	text-align: center;
+	font-size: 14px; 
+	margin-top: 14px;
+}
+.Copyright a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 14px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+

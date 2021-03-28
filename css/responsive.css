@@ -1,0 +1,94 @@
+@media(max-width:1199px){
+
+}
+@media(max-width:991px){
+.banner-content p{
+	    padding-right: 100px;
+	}
+	header > .container {
+    padding: 50px 0;
+	}
+	.banner-content h1 {
+    font-size: 40px !important;
+    line-height: 50px;
+	}
+	.features img {
+    width: 60px;
+    height: 70px;
+	}
+	.features h2 {
+    font-size: 19px;
+    margin: 8px 0;
+	}
+	.features p {
+    font-size: 14px;
+	}
+	.features {
+    padding: 30px 8px !important; 
+	}
+	section{
+		padding:40px 0;
+	}	
+	.heading h1 {
+    font-size: 30px;
+	}
+	.course {
+    padding: 12px;
+	}
+	.course h3 {
+    font-size: 18px;
+    margin-bottom: -5px;
+	}
+	.course span {
+    font-size: 12px;
+	}
+	.course button {
+    margin-bottom: 15px;
+    font-size: 14px;
+	}
+
+}
+
+@media(max-width:767px){
+.banner-content h1 {
+    font-size: 30px !important;
+    line-height: 40px;
+}
+.banner-content p {
+    padding-right: 40px;
+}
+.banner-content p {
+    font-size: 14px;
+}
+.banner-content a {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.features{
+	margin-bottom: 30px;
+}
+.course{
+	margin-bottom: 30px;
+}
+section{
+	padding:35px 0 10px;
+	}
+}
+@media(max-width:575px){
+  	.banner-content h1 {
+    font-size: 25px !important;
+    margin-left: 25px;
+	}
+	.courses-section{    
+		margin-top: -40px !important;
+	}
+}
+@media(max-width:1199px){
+
+}
+
+
+
+
+
+
